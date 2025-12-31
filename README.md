@@ -37,7 +37,7 @@ The system uses a **FastAPI backend**, **Streamlit frontend**, **ChromaDB** for 
 ---
 
 ## 📁 Project Structure
-
+```bash
 multi-doc-rag-chatbot/
 │
 ├── backend/
@@ -52,16 +52,16 @@ multi-doc-rag-chatbot/
 ├── requirements.txt
 ├── .env
 └── README.md
-
+```
 
 ---
 
 ## 🔐 Environment Setup
 
 Create a `.env` file in the project root:
-
-GROQ_API_KEY=your_groq_api_key_here
-
+```bash
+GROQ_API_KEY="your_groq_api_key_here"
+```
 ---
 
 ## 📦 Installation
@@ -91,13 +91,15 @@ streamlit run app.py
 ```
 Open: http://localhost:8501
 
+---
+
 ## 💬 How It Works
-Upload one or more PDF files
-Documents are split into chunks and embedded
-Embeddings are stored in ChromaDB
-User selects a document and asks a question
-Relevant chunks are retrieved
-LLM generates an answer using retrieved context and chat history
+- Upload one or more PDF files
+- Documents are split into chunks and embedded
+- Embeddings are stored in ChromaDB
+- User selects a document and asks a question
+- Relevant chunks are retrieved
+- LLM generates an answer using retrieved context and chat history
 
 
 
