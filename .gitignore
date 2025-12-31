@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+env/
+venv/
+.venv/
+
+# ---- Environment Variables ----
+.env
+
+# ---- Vector DB / Uploads ----
+backend/vectorstore/
+backend/uploads/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Docker ----
+*.log
